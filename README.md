@@ -6,7 +6,7 @@ Citevia 是面向论文写作的 Windows 桌面参考文献管理工具，支持
 
 [下载 Citevia 最新正式版](https://github.com/A97ya/Citevia/releases/latest)
 
-- Windows 安装包：在最新发布页下载 `ReferenceStudio-Setup-4.2.exe`。
+- Windows 安装包：在最新发布页下载 `ReferenceStudio-Setup-4.3.exe`。
 - 升级前保存并关闭 Word，退出 Citevia，再运行安装包覆盖升级，无须先卸载。
 - 也可以在已安装软件的“设置 → 检查更新”中获取维护版本。
 - 安装包未进行商业代码签名，请核对下载来源和发布页提供的 SHA-256。
@@ -18,12 +18,16 @@ Citevia 是面向论文写作的 Windows 桌面参考文献管理工具，支持
 - 自定义参考文献样例、作者规则、字体与段落排版，并复用期刊格式模板。
 - 在 Microsoft Word 中插入和管理引用，支持重复引用编号复用、编号更新与分区参考文献。
 - 支持在 Word 中直接 Delete 删除完整角标、整条参考文献或整块列表，下次插入或更新时同步删除并重新编号。
+- Word 侧栏与桌面 Word 页面可设置 0–2 cm 悬挂缩进，支持跟随项目，也可分别为主文及补充材料设置。
+- 数字书目编号使用统一制表位，多行作者正文对齐；数字上标范围连接符使用一致的西文字体。
 
-## 4.2 升级提示
+## 4.3 升级提示
 
-旧文稿需在升级后，对主文和使用过的补充材料分别执行一次“更新引用”并保存，才能解除旧版引用和书目控件的删除锁定。Word 文档整体只读或受保护的限制不会被绕过。未运行 Citevia 时，删除操作不会实时同步其他位置或自动编号。
+旧文稿需在升级后，对主文和使用过的补充材料分别执行一次“更新引用”并保存，以应用排版修正，并解除旧版引用和书目控件的删除锁定。Word 文档整体只读或受保护的限制不会被绕过。未运行 Citevia 时，删除操作不会实时同步其他位置或自动编号。
 
-[4.2 完整图文说明书](https://github.com/A97ya/Citevia/releases/download/v4.2-build.1/Citevia-4.2-Manual.pdf)
+在 Word 侧栏取消“跟随项目”，输入悬挂缩进数值后点击“更新引用”；0 表示不悬挂缩进。手动修改过的参考文献段落继续优先保留，也可在 Word 中直接调整。
+
+[4.3 更新说明](https://github.com/A97ya/Citevia/releases/tag/v4.3-build.1) | [4.2 历史版本](https://github.com/A97ya/Citevia/releases/tag/v4.2-build.1) | [4.2 图文说明书](https://github.com/A97ya/Citevia/releases/download/v4.2-build.1/Citevia-4.2-Manual.pdf)（说明书不含 4.3 新增缩进控件）
 
 多来源信息一致不等于绝对无误。正式投稿前，请核对原文与目标期刊要求；操作重要文稿前，请自行保留副本。
 
@@ -35,6 +39,6 @@ Citevia 是面向论文写作的 Windows 桌面参考文献管理工具，支持
 
 ## 源代码与问题反馈
 
-完整应用源码随正式版本提供，请下载发布附件中的 `ReferenceStudio-Source-4.2.zip`。GitHub 自动生成的 “Source code” 压缩包仅对应当前仓库文件，不等同于完整应用源码包。
+完整应用源码随正式版本提供，请下载发布附件中的 `ReferenceStudio-Source-4.3.zip`。GitHub 自动生成的 “Source code” 压缩包仅对应当前仓库文件，不等同于完整应用源码包。
 
 [报告问题或建议](https://github.com/A97ya/Citevia/issues)时，请说明软件版本、复现步骤和错误提示，不要上传密码、令牌或未经处理的私人论文内容。
